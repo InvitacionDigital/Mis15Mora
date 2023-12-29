@@ -1,34 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Hero from "./components/Hero"
+import Phrase from "./components/Phrase"
+import CountDown from "./components/CountDown"
+import Ceremony from "./components/Ceremony"
+import DressCode from "./components/DressCode"
+import Inolvidable from "./components/Inolvidable"
+import Venis from "./components/Venis"
+import Gracias from "./components/Gracias"
+import Regalo from "./components/Regalo"
+import Footer from "./components/Footer"
+import Music from "./components/Music"
+
+import foto3 from "/foto3.jpeg"
+import foto2 from "/foto2.jpeg"
+import Canciones from "./components/Canciones"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="flex flex-col items-center w-full lg:w-[700px] m-auto">
+      <Hero />
+      <Music />
+      <Phrase />
+      <CountDown />
+      <Ceremony />
+      <img src={foto3} alt="foto1" className="w-full mt-10" />
+      <DressCode />
+      <img src={foto2} alt="foto2" className="w-full mt-10" />
+      <Canciones />
+      <Inolvidable />
+      <Venis />
+      <Regalo />
+      <Gracias />
+      <Footer />
+    </div>
   )
 }
 
