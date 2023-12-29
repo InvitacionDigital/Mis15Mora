@@ -14,7 +14,7 @@ function Timer() {
               hour = minute * 60,
               day = hour * 24;
 
-        const birthday = "02/03/2024"
+        const birthday = "02/10/2024"
         const countDown = new Date(birthday).getTime();
 
         const x = setInterval(() => {    
@@ -32,8 +32,8 @@ function Timer() {
         }, 1000);
 
     return (
-        <div className="w-[85%] relative my-14 py-10 font-[poppins] shadow-black rounded-2xl">
-            <h2 className="font-normal text-6xl text-center mb-12  font-dance">Faltan</h2>
+        <div className="w-[85%] relative my-14 py-10 font-[poppins] shadow-black rounded-2xl text-primary">
+            <h2 className="font-normal text-6xl text-center mb-12  font-dance ">Faltan</h2>
             <div className="flex justify-evenly text-4xl m-auto relative w-[full] max-w-[522px]">
                 <div className="flex-col items-center flex min-w-12">
                     <p id="days" className="text-center font-light">{dayy}</p>
