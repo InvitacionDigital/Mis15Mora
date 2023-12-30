@@ -3,8 +3,8 @@ import down from '/down.png';
 
 const GoDown = () => {
   return (
-    <div>
-      <img src={down} alt="down" className='animate-bounce w-[35px] ml-[-15px] mx-auto absolute z-50'/>
+    <div className='absolute bottom-14'>
+      <img src={down} alt="down" className='animate-bounce w-[35px] h-[35px]'/>
     </div>
   );
 };

@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        'black': '0px 0px 12px -2px rgba(255,192,203,0.5)',
-        'full': '0 0 490px 2000px rgba(30,30,30,0.8)',
+        'black': '0px 0px 20px -10px rgba(255,192,203,0.5)',
+        'full': '0 0 490px 7000px rgba(30,30,30,0.8)',
       },
       fontFamily: {
         'sans': ['Montserrat', 'sans-serif'],
@@ -21,9 +21,12 @@ export default {
         'primary': '#FFC0CB',
         'secondary': '#FFB6C1',
         'tertiary': '#FF69B4',
-        'golden': '#FFD700',
+        'golden': '#ffe5af',
+        'golden2': '#ffd280',
+        'golden3': '#ffbf80',
         'black': '#000000',
         'white': '#FFFFFF',
+        
       },
     },
   },

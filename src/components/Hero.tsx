@@ -1,21 +1,25 @@
 import React from 'react';
 import noscasamos from '/casamos.png';
+import bg1 from '/bg1.jpeg';
+import bg2 from '/bg2.jpeg';
+import bg3 from '/bg3.jpeg';
 import GoDown from './GoDown';
 
 const Hero: React.FC = () => {
   return (
-    <div className='bg-[url("/bg-black2.png")] w-full min-w-[300px] max-w-[1000px] aspect-[9/16] bg-contain bg-center bg-no-repeat flex flex-col justify-evenly py-10 items-center relative '>
-      <img src={noscasamos} alt="noscasamos" className='w-[170px] mb-[-30px] mx-auto'/>
-      <div className='text-7xl text-center w-fit'>
-        <h1 className=''>Mis 15</h1>  
-        <h1 className='-translate-y-2'>.</h1>
-        <h1 className=''>Mora</h1>
+    <div className='bg-[url("/bg6.jpeg")] opacity-80 w-full min-w-[300px] max-w-[1000px] aspect-[2/3] bg-contain bg-center bg-no-repeat flex flex-col justify-center py-10 items-center relative '>
+      <div className='flex items-center gap-2'>
+        <span className='border-b border-secondary w-14 h-0'></span>
+        <p className='font-[poppins] text-secondary'>10.02.2024</p>
+        <span className='border-b border-secondary w-14 h-0'></span>
       </div>
-      <div className='flex items-center gap-2 '>
-        <span className='border-b border-gray-400 w-12 h-0'></span>
-        <p className='font-[poppins]'>10.02.2024</p>
-        <span className='border-b border-gray-400 w-12 h-0'></span>
+      <div className='text-7xl text-center w-[205px] relative my-12'>
+        <h2 className='text-primary opacity-30 text-[10rem] absolute top-1/2 -translate-y-1/2'>XV</h2>
+        <h1 className='z-30 relative font-semibold'>Mora</h1>
+        <h1 className='text-xl relative '>Mis 15 años</h1>
       </div>
+      <span className='border-b border-secondary w-44 h-0'></span>
+
       <GoDown />
     </div>
   );
