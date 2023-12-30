@@ -1,8 +1,4 @@
 import React from 'react';
-import noscasamos from '/casamos.png';
-import bg1 from '/bg1.jpeg';
-import bg2 from '/bg2.jpeg';
-import bg3 from '/bg3.jpeg';
 import GoDown from './GoDown';
 
 const Hero: React.FC = () => {
