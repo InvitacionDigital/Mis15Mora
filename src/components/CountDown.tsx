@@ -32,9 +32,9 @@ function Timer() {
         }, 1000);
 
     return (
-        <div className="w-[85%] relative my-14 py-10 font-[poppins] shadow-3xl rounded-2xl text-primary">
-            <h2 className="font-semibold text-6xl text-center mb-12  font-dance ">Faltan</h2>
-            <div className="flex justify-evenly text-4xl m-auto relative w-[full] max-w-[522px]">
+        <div className= "w-full h-96 relative my-14 flex flex-col justify-center gap-8 font-[poppins] text-primary bg-[url('/circulo.svg')] bg-no-repeat bg-contain bg-center">
+            <h2 className="font-semibold text-6xl text-center font-dance">Faltan</h2>
+            <div className="flex justify-evenly text-4xl mx-auto relative w-[full] max-w-[522px]">
                 <div className="flex-col items-center flex min-w-12">
                     <p id="days" className="text-center font-light">{dayy}</p>
                     <p className="text-sm">Días</p>
@@ -52,7 +52,6 @@ function Timer() {
                     <p className="text-sm">Seg</p>
                 </div>
             </div>
-            <img src={globosGif} alt="globosGif" className='w-[120px] m-auto mt-12' />
         </div>
 
     )
