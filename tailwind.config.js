@@ -20,7 +20,7 @@ export default {
         'dance': ['Dancing Script', 'cursive'],
       },
       colors: {
-        'primary': '#68C3B7',
+        'primary': 'rgba(5, 216, 193, 1)',
         'secondary': '#FFB6C1',
         'tertiary': '#FF69B4',
         'golden': '#ffe5af',
