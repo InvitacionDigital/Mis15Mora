@@ -9,7 +9,7 @@ const Canciones: React.FC = () => {
       <h2 className="font-semibold text-5xl text-center mb-2 font-dance ">Siga el baile!</h2>
       <img src={microGif} alt="microGif" className='w-[80px]' />
       <p className='text-lg '>Que tu tema favorito no deje de sonar en nuestra fiesta.<br/>¡Ayudanos a armar la lista! <br/>¡Sumate haciendo clic!</p>
-      <a href='https://docs.google.com/forms/d/e/1FAIpQLSewT9jmWDEBRthIxgGxQTb8m_CWMNUHGE6rRVjQMNOe6uZLKw/viewform?usp=sf_link'
+      <a href='https://docs.google.com/forms/d/e/1FAIpQLSemgh9jE1_7JekO6QVXF_JRLy0FT-k8ibMeTK8q3TM5Ng3AoA/viewform?usp=sf_link'
         target='_blank'
         className='mt-6 shadow-3xl rounded-full p-4 bg-primary text-white'>AÑADÍ TU TEMA</a>
     </div>

@@ -34,7 +34,7 @@ function Timer() {
     return (
         <div className= "w-full h-96 relative my-14 flex flex-col justify-center gap-8 font-[poppins] text-primary bg-[url('/circulo.svg')] bg-no-repeat bg-contain bg-center">
             <h2 className="font-semibold text-6xl text-center font-dance">Faltan</h2>
-            <div className="flex justify-evenly text-4xl mx-auto relative w-[full] max-w-[522px]">
+            <div className="flex justify-evenly gap-2 text-4xl mx-auto relative w-[full] max-w-[522px]">
                 <div className="flex-col items-center flex min-w-12">
                     <p id="days" className="text-center font-light">{dayy}</p>
                     <p className="text-sm">Días</p>
